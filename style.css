@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    font-family: 'Righteous', cursive;
+    margin-bottom: auto;
+    background-color: black;
+}
+
+.info {
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    align-self: center;
+    margin-top: 40px;
+    color: black;
+}
+
+.links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.title{
+    color: orange;
+    margin-left: 10px;
+}
+
+.body {
+    display: flex;
+    padding: 32px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    background-color: plum;
+    color: white;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    background-color: #CFCCD6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+    text-align: start;
+}
+
+.author {
+    margin-top: auto;
+    margin-right: 40px;
+}
+
+.quote {
+    margin-left: 10px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+}
+
+.footer{
+    display: flex;
+    margin-top: auto;
+}
+
+img {
+    width: 500px;
+    align-self: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
